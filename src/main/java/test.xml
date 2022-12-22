@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+    <test name="PageOne">
+        <classes>
+
+        </classes>
+    </test>
+    <test name="Login Test">
+
+        <parameter name="sName" value="Chalani"/>
+        <parameter name="sEmail" value="kcp@gmail.com"/>
+        <parameter name="sPassword" value="kcp321"/>
+        <parameter name="sPasswordCheck" value="kcp321"/>
+        <classes>
+            <class name="TestClass"/>
+        </classes>
+
+    </test>
+</suite>
